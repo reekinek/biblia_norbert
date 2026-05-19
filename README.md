@@ -1,2 +1,2 @@
 # biblia_norbert
-piszemy biblia bo norbi nie umie
+piszemy biblie bo norbi nie umie
