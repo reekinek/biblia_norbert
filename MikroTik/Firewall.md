@@ -5,9 +5,9 @@
 - Wchodzimy w IP -> Firewall
 - W zakładce `Filter Rules` klikamy plus
 	- W zakładce `general` dajemy src address na 192.168.10.0/24 i DST address na 192.168.20.0/24
-	  ![[MTIK_Firewall_1.png]]
+	  ![tekst](../Obrazki/MTIK_Firewall_1.png)
 		W zakładce `Action` wybieramy `drop`
-		![[Pasted image 20260519183653.png]]
+		![[mtik_firewall_2.png]]
 	- Robimy to samo tylko robimy SRC i DST address na odwrót
 - Adresujemy kompy w sieciach (ważne by ustawić gateway)
 - Pingi nie będą przechodzić
