@@ -1,0 +1,18 @@
+- no default config bo grzeczne dzieci tak robią
+- stworzyć bridge, przypisać do niego jakiś port(byle nie eth1) oraz wlan1
+- przypisać IP do bridge
+- wejść w wireless -> wireless, zakladke `wifi interfaces` kliknać w wlan1 i wejść w zakładkę Wireless
+- tak powinna wyglądać konfiguracja(mode na apbridge, band na 2ghz bgn, ustawic jakies ssid, country na poland i installation na indoor)
+- ![[Pasted image 20260519185313.png]]
+- jak wlan1 nie jest włączony to kliknąć prawym na wlan1 i zrobić enable
+- w wireless wejść do security profiles, kliknac na default, tak ustawic config(mode na dynamic keys, authentication wybrac wpa2 psk i ustawic jakies hasło)
+  ![[Pasted image 20260519185443.png]]
+- podłączyć eth1 do puszki i pusze do netgeara
+- wejsc w IP -> DHCP client, plusik i ustawić na eth1
+- Zaczekać chwile i zobaczyć czy eth1 dostało ip(tu mam eth2 i inne ip bo tak mam w domciu)
+- ![[Pasted image 20260519185855.png]]
+- wejsc w ip -> firewall, zakładka `NAT` kliknac plusik i nową regułe 
+- chain ustawic na srcnat, out interface na ether1![[Pasted image 20260519190128.png]]
+- wejsc w `action` i wybrac masquerade
+- ![[Pasted image 20260519190154.png]]
+- potem wejsc w ip, dhcp server i zrobic setup na bridgeu (chyba powinno działac, ale jak nie ma neta to podczas dhcp mozna dodac wlasnego dnsa, np 1.1.1.1 lub 8.8.8.8)
