@@ -1,0 +1,1 @@
+tak w sumie to nie norbert kompletnie ale tez sie przyda
