@@ -5,7 +5,7 @@
 - Wchodzimy w IP -> Firewall
 - W zakładce `Filter Rules` klikamy plus
 	- W zakładce `general` dajemy src address na 192.168.10.0/24 i DST address na 192.168.20.0/24
-	  ![[Pasted image 20260519183549.png]]
+	  ![[MTIK_Firewall_1.png]]
 		W zakładce `Action` wybieramy `drop`
 		![[Pasted image 20260519183653.png]]
 	- Robimy to samo tylko robimy SRC i DST address na odwrót

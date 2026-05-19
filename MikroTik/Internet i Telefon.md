@@ -7,8 +7,8 @@
 - jak wlan1 nie jest włączony to kliknąć prawym na wlan1 i zrobić enable
 - w wireless wejść do security profiles, kliknac na default, tak ustawic config(mode na dynamic keys, authentication wybrac wpa2 psk i ustawic jakies hasło)
   ![[Pasted image 20260519185443.png]]
-- podłączyć eth1 do puszki i pusze do netgeara
-- wejsc w IP -> DHCP client, plusik i ustawić na eth1
+- podłączyć eth1 do puszki i puszke do netgeara
+- wejsc w IP -> DHCP client, plusik i ustawić na eth1 (zaznaczyc obydwie, use peer dns pobiera dnsa z netgeara)
 - Zaczekać chwile i zobaczyć czy eth1 dostało ip(tu mam eth2 i inne ip bo tak mam w domciu)
 - ![[Pasted image 20260519185855.png]]
 - wejsc w ip -> firewall, zakładka `NAT` kliknac plusik i nową regułe 

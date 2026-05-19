@@ -1,0 +1,1 @@
+Jeśli nie jesteś Igorem Strzeżynką tudzież Janem Z Bielsko Białej nie przeglądaj tych obrazków
