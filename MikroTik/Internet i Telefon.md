@@ -13,7 +13,7 @@
 - ![tekst](../Obrazki/mtik_wifi_3.png)
 - wejsc w ip -> firewall, zakładka `NAT` kliknac plusik i nową regułe 
 - chain ustawic na srcnat, out interface na ether1
-  ![tekst](../Obrazki/mtik_wifi_4.png)
+- ![tekst](../Obrazki/mtik_wifi_4.png)
 - wejsc w `action` i wybrac masquerade
 - ![tekst](../Obrazki/mtik_wifi_5.png)
 - potem wejsc w ip, dhcp server i zrobic setup na bridgeu (chyba powinno działac, ale jak nie ma neta to podczas dhcp mozna dodac wlasnego dnsa, np 1.1.1.1 lub 8.8.8.8)
