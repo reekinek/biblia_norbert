@@ -1,0 +1,1 @@
+pakiet: lynx

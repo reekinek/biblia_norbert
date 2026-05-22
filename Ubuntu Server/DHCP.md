@@ -1,0 +1,1 @@
+pakiet: isc-dhcp-server
