@@ -4,7 +4,7 @@
 - MikroTik domyślnie routuje różne sieci i ping przechodzi
 - Wchodzimy w IP -> Firewall
 - W zakładce `Filter Rules` klikamy plus
-	- W zakładce `general` dajemy src address na 192.168.10.0/24 i DST address na 192.168.20.0/24
+	- W zakładce `general` dajemy src address na 192.168.10.0/24 i DST address na 192.168.20.0/24, a protocol dajemy ICMP żeby blokowało ping
 	- ![tekst](../Obrazki/MTIK_Firewall_1.png)
 	- W zakładce `Action` wybieramy `drop`
 	- ![tekst](../Obrazki/mtik_firewall_2.png)

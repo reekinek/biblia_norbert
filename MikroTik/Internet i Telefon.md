@@ -2,7 +2,7 @@
 - stworzyć bridge, przypisać do niego jakiś port(byle nie eth1) oraz wlan1
 - przypisać IP do bridge
 - wejść w wireless -> wireless, zakladke `wifi interfaces` kliknać w wlan1 i wejść w zakładkę Wireless
-- tak powinna wyglądać konfiguracja(mode na apbridge, band na 2ghz bgn, ustawic jakies ssid, country na poland i installation na indoor)
+- tak powinna wyglądać konfiguracja(mode na apbridge, band na 2ghz bgn, ustawic jakies ssid, country na poland i installation na indoor, wireless protocl na 802.11 frequency mode na regulatory domain i antenna gain na 2 (tych 3 ostatnich nie ma bo to na moim mikrotiku jest))
 - ![tekst](../Obrazki/mtik_wifi_1.png)
 - jak wlan1 nie jest włączony to kliknąć prawym na wlan1 i zrobić enable
 - w wireless wejść do security profiles, kliknac na default, tak ustawic config(mode na dynamic keys, authentication wybrac wpa2 psk i ustawic jakies hasło)
