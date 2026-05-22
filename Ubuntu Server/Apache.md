@@ -39,6 +39,7 @@ Musimy też nadać uprawnienia użytkownikowi www-data:
 robimy `sudo nano /etc/apache2/sites-available/000-default.conf`
 
 w linijce `DocumentRoot` adekwatnie zmieniamy lokalizacje pliku 
+dopisujemy linijke `ServerName` i wpisujemy tam jakis adres strony (w sumie nwm po co to ale dobra no coz)
 
 ![tekst](../Obrazki/apache4.png)   
 
