@@ -37,6 +37,8 @@ Musimy też nadać uprawnienia użytkownikowi www-data:
 # Edycja konfigu
 
 robimy `sudo nano /etc/apache2/sites-available/000-default.conf`
+(Ewentualnie jak mamy zostawic defaultową stronę to wtedy kopiujemy i zmieniami nazwe)
+
 
 w linijce `DocumentRoot` adekwatnie zmieniamy lokalizacje pliku 
 dopisujemy linijke `ServerName` i wpisujemy tam jakis adres strony (w sumie nwm po co to ale dobra no coz)
@@ -48,3 +50,20 @@ Zapisujemy plik i  używamy komendy `sudo systemctl restart apache2` do zrestart
 Po restarcie, na kliencie po wejsciu na ip serwera powinna sie wyswietlic nowa strona
 
 ![tekst](../Obrazki/apache3.png)   
+
+# Zmiana portu
+
+Wchodzimy w plik `etc/apache2/ports.conf`
+Po linijce `Listen 80` wpisujemy własną linijkę `Listen` z naszym numerem portu
+
+![tekst](../Obrazki/apache5.png)       
+    
+Następnie musimy zedytować plik konfiguracyjny naszej strony (w tym przypadku to `/etc/apache2/sites-available/000-default.conf`) Na samej górze w linicje z `VirtualHost` zamieniami port 80 na nasz własny port:
+
+![tekst](../Obrazki/apache6.png)    
+
+       
+Musimy też przepuścić nasz port przez firewalla: `sudo ufw allow 8080`
+Zapisujemy pliki i  używamy komendy `sudo systemctl restart apache2` do zrestartowania serwisu i `sudo systemctl status apache2` żeby sprawdzić czy wszystko działa
+
+Teraz, żeby sprawdzić czy działa to albo używamy komendy `curl` bądź `lynx` na serwerze lub wchodzimy w przeglądarke na kliencie gdzie wpisujemy adres ip serwera i po dwukropku numer portu: `192.168.10.10:8080`
