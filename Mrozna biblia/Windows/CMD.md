@@ -4,16 +4,16 @@
 Zmusza windowsa to synchronizacja zasad grupy. Opcja /force go bardziej zmusza
 # net user
 
-`net user` - wyświetla liste wszystkich użytkowników
-`net user marian` - wyświetla szczegółowe informacje o użytkowniku marian. Jest to też baza do której dodajemy argumenty podane poniżej:
+`net user` - wyświetla liste wszystkich użytkowników   
+`net user marian` - wyświetla szczegółowe informacje o użytkowniku marian. Jest to też baza do której dodajemy argumenty podane poniżej:   
 Aby dodać hasło to po nazwie użytkownika w komendzie wpisujemy hasło (`net user marian haslomaslo`). Ewentualnie hasło zastępujemy `*` aby cmd sie nas zapytalo o haslo zeby nie bylo go widac w plain texcie
 
-/add - tworzy użytkownika
-/delete - usuwa użytkownika
-/active:{yes|no} - włącza lub wyłącza konto
-/times:{time|all} - ogranicza czas w którym można się logować na konto (opcja all usuwa ograniczenia). Np. `/times:M-F,08:00-18:00`
+/add - tworzy użytkownika   
+/delete - usuwa użytkownika   
+/active:{yes|no} - włącza lub wyłącza konto   
+/times:{time|all} - ogranicza czas w którym można się logować na konto (opcja all usuwa ograniczenia). Np. `/times:M-F,08:00-18:00`   
 /expires:{Date|never} - ustawia czas wygaśniećia konta. (opcja never usuwa wygaśnięcie). Np. `/expires:31/12/2026` Format daty zależy od locale systemu. Na polskim bedzie DD/MM/YYYY a na amerykanskim bedzie MM/DD/YYYY (moze wywalic blad wtedy)
-/passwordchg:{yes|no} - pozwala badź nie użytkownikowi na zmiane hasła
+/passwordchg:{yes|no} - pozwala badź nie użytkownikowi na zmiane hasła   
 
 Przykładowa komenda:
 
