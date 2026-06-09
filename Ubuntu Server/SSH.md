@@ -19,5 +19,5 @@ Na cmd/terminalu wpisujemy tą oto komende(jak zmienilismy port to dajemy argume
 
 Zapyta sie nam o cos za pierwszym razem, piszemy `yes`, podajemy hasło i WŁALA
 
-![tekst](../../Obrazki/ssh.png)   
+![tekst](../Obrazki/ssh.png)   
 

@@ -36,7 +36,7 @@ Edytujemy config:
 `sudo nano /etc/samba/smb.conf`
 
 Zjeżdżamy na sam dół pliku i tam piszemy nasz konfig(można sie wspomoc wyzej wpisanymi configami):   
-![tekst](../../Obrazki/samba1.png)   
+![tekst](../Obrazki/samba1.png)   
 
      
 Skupiamy sie tylko na sekcji na samym dole, tzn:
