@@ -25,7 +25,9 @@ Edytujemy plik strefy, domylsnie wyglada on tak:
 ![tekst](../Obrazki/dns2.png)     
     
 
-Zamieniamy wszystkie wzmianki `localhost` na nasz adres (`chrupka.polewa`), zostawiamy kropki na koncach. W ostatnich dwoch linijkach zamieniamy adres na adres na ktorym mamy np strone (`192.168.10.50`). W ostatniej linijce zamienami `@` na `www` a `AAAA` na `A` ()
+Zamieniamy wszystkie wzmianki `localhost` na nasz adres (`chrupka.polewa`), zostawiamy kropki na koncach. W ostatnich dwoch linijkach zamieniamy adres na adres na ktorym mamy np strone (`192.168.10.50`). W ostatniej linijce zamienami `@` na `www` a `AAAA` na `A` 
+
+Jeśli chcemy np dodac zeby to byl adres to serwera ftp czy innej uslugi jeszcze np to zastepujemy/dodajemyt nowa taka sama linijke jak ostatnia ale zamieniamiy `www` na `ftp`
 
 ![tekst](../Obrazki/dns3.png)     
 
@@ -37,7 +39,7 @@ sudo named-checkzone mojadomena.local /etc/bind/db.mojadomena.local
 ```
 
 Powinny one dac nic albo po prostu `OK`:
-![tekst](../Obrazki/dns3.png)
+![tekst](../Obrazki/dns4.png)
 
 Teraz restartujemy i patrzymy status:
 
