@@ -4,8 +4,7 @@ Większość przystaweczek wywołujemy przez wpisanie ich nazw w oknie uruchom k
 
 # Przystaweczki
 
-[!IMPORTANT]
-Realistycznie zdecydowaną wiekszość potrzebnych przystawek znajdziemy w **compmgmt.msc** i **mmc**
+Część potrzebnych przystawek znajdziemy w **compmgmt.msc** i **mmc**
 ## compmgmt.msc
 
 Przydatna przystawka, bo mamy w niej zawarte kilka ważnych przystawek. Ich lista znajduje się poniżej:
