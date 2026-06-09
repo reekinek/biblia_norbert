@@ -23,38 +23,38 @@ Przykładowa komenda:
 
 Taki troche secpol ale w cmd. Sama komenda daje nam po prostu status jej parametrów
 
-/domain - sprawia że  operacja jesst wykonywana na kontrolerze domeny(globalnie) a nie lokalnie(moze sie przydac jak ktos zapomnial jak wyklikac na serwerze)
-/minpwlen:{length} - ustawia minimalną wymaganą dlugosc hasła
-/maxpwage:{days | unlimited} - po ilu dniach użytkownicy wygasa hasło
-/minpwage:{days} - po ilu dniach uzytkównicy moga zmienic swoje haslo
-/uniquepw:{number} - zachowuje podana ilosc poprzednich hasel, uzytkownicy nie moga ich potem ustawic na haslo
-/forcelogoff:{minutes | no} - jesli podamy czas w minutach to po podanym czasie uzytkownik zostanie wylogowy
+/domain - sprawia że  operacja jesst wykonywana na kontrolerze domeny(globalnie) a nie lokalnie(moze sie przydac jak ktos zapomnial jak wyklikac na serwerze)   
+/minpwlen:{length} - ustawia minimalną wymaganą dlugosc hasła   
+/maxpwage:{days | unlimited} - po ilu dniach użytkownicy wygasa hasło   
+/minpwage:{days} - po ilu dniach uzytkównicy moga zmienic swoje haslo   
+/uniquepw:{number} - zachowuje podana ilosc poprzednich hasel, uzytkownicy nie moga ich potem ustawic na haslo   
+/forcelogoff:{minutes | no} - jesli podamy czas w minutach to po podanym czasie uzytkownik zostanie wylogowy   
 # net localgroup
 Do zarządzania grupami lokalnymi
 
-`net localgroup` - lista wszystkich grup
-`net localgroup Administrators` - daje info o danej grupie
+`net localgroup` - lista wszystkich grup   
+`net localgroup Administrators` - daje info o danej grupie   
 
-Argumenty:
-/domain - sprawia że  operacja jesst wykonywana na kontrolerze domeny(globalnie) a nie lokalnie(moze sie przydac jak ktos zapomnial jak wyklikac na serwerze)
-/add - dodaje użytkownika/grupe globalna do grupy lokalnej
-/delete - usuwa uzyszkodnika z grupy lokalnej
-/comment:"Text" - dodaje komentarz do grupy
+Argumenty:   
+/domain - sprawia że  operacja jesst wykonywana na kontrolerze domeny(globalnie) a nie    lokalnie(moze sie przydac jak ktos zapomnial jak wyklikac na serwerze)    
+/add - dodaje użytkownika/grupe globalna do grupy lokalnej   
+/delete - usuwa uzyszkodnika z grupy lokalnej   
+/comment:"Text" - dodaje komentarz do grupy   
 
-Przykladowa komenda:
+Przykladowa komenda:   
 `net localgroup "Administrators" marian /add` - dodaje uzytkownika marian do grupy Administratorzy
 # net share
-Zarządanie udziałami sieciowymi i drukarkami.
+Zarządanie udziałami sieciowymi i drukarkami.   
 
-`net share` - pokazuje info o udziałach
-`net share Magazyn=C:\magazyn` - tworzy udział o nazwie/aliasie Magazyn zmapowany do folderu C:\magazyn
+`net share` - pokazuje info o udziałach   
+`net share Magazyn=C:\magazyn` - tworzy udział o nazwie/aliasie Magazyn zmapowany do folderu C:\magazyn   
 
-Argumenty:
-/grant:{UserName},{Permissions} - daje danemu użytkownikowi uprawnienia ACL do danego udziału. Możliwe uprawnienia to READ, CHANGE i FULL
+Argumenty:   
+/grant:{UserName},{Permissions} - daje danemu użytkownikowi uprawnienia ACL do danego udziału. Możliwe uprawnienia to READ, CHANGE i FULL   
 /users:{Number} - ustawia limit ile użytkowników może być jednoczesnie zalogowanych do udziały
-/unlimited - usuwa jakiekolwiek numeryczne udziały
-/remark:"Text" - daje opis do udziału
-/delete - usuwa udział (ale nie folder) (wtedy robimy np `net share Magazyn /delete`)
+/unlimited - usuwa jakiekolwiek numeryczne udziały   
+/remark:"Text" - daje opis do udziału   
+/delete - usuwa udział (ale nie folder) (wtedy robimy np `net share Magazyn /delete`)   
 
-Przykład:
+Przykład:   
 `net share Magazyn=C:\magazyn /grant:marian,READ /remark:"zajebane paletami"
