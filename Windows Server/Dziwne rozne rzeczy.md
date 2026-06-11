@@ -5,7 +5,7 @@ Dodanie domeny, jednostek organizacyjnych i uzytkownik jest tak banalne ze nie b
 Profil mobilny  (Profil mobilny) - przechowuje ustawienia użytkownika na serwerze
 Folder macierzyty (Home folder) - prywatny katalog plikow uzytkownika, mozna zmapowac jako dysk sieciowy
 
-Aby utworzyć, wchodzimy w użytkownikow i komputerow AD, klikamy prawym na uzytkownika, wlasciwosci, zakladka profil: (jesli ma sie utworzyc w danym folderze folder o nazwie uzytkownika to po \ mozemy zapisaca `%username%`)
+Aby utworzyć, wchodzimy w użytkownikow i komputerow AD, klikamy prawym na uzytkownika, wlasciwosci, zakladka profil: (jesli mamy korzystac z folderu o nazwie uzytkownika to po \ mozemy zapisaca `%username%` ale ten folder musi istniec)
 
 Jeśli poproszą nas na ustawienie ścieżki profilu w udostępnionym zasobie to albo możemy z łapy to podać albo możemy wpisać coś podobne do tego: `\\serwer\nazwa_udzialu\%username%`
 
