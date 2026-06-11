@@ -3,21 +3,21 @@
 Apache
 - `/var/www` - Przechowywane strony
 - `/etc/apache2/`
-    `/sites-available/000-default.conf` - Główny config
-    `/ports.conf` - Config do portów
+   - `/sites-available/000-default.conf` - Główny config
+   - `/ports.conf` - Config do portów
 
 CUPS
 - `/norbert/nie/nauczyl` - I jest na hawajach
 
 DHCP
 - `/etc/dhcp`
-    `/dhcpd.conf` - Główny config
-    `/isc-dhcp-server` - Dodawanie inferface dla dhcp
+   - `/dhcpd.conf` - Główny config
+   - `/isc-dhcp-server` - Dodawanie inferface dla dhcp
 
 DNS
 - `/etc/bind/`
-    `named.conf.local` - Główny config
-    `db.local` - Plik strefy
+   - `named.conf.local` - Główny config
+   - `db.local` - Plik strefy
 
 FTP
 - `/etc/vsftpd.conf`
