@@ -45,7 +45,7 @@ dopisujemy linijke `ServerName` i wpisujemy tam jakis adres strony (w sumie nwm 
 
 ![tekst](../Obrazki/apache4.png)   
 
-Zapisujemy plik i  używamy komendy `sudo systemctl restart apache2` do zrestartowania serwisu i `sudo systemctl status apache2` żeby sprawdzić czy wszystko działa
+Zapisujemy plik, robimy `sudo a2ensite nazwakonfig.conf` i  używamy komendy `sudo systemctl restart apache2` do zrestartowania serwisu i `sudo systemctl status apache2` żeby sprawdzić czy wszystko działa
 
 Po restarcie, na kliencie po wejsciu na ip serwera powinna sie wyswietlic nowa strona
 
