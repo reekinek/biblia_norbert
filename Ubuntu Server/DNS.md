@@ -55,6 +55,9 @@ Co robimy to dodajemy linijke `ServerName` z adresm naszej strony oraz `ServerAl
 
 Jak to zrobimy to musimy tez zrestartowac apache2
 
+# Testowanie
+
+Jak chcemy przetestowac DNS na serwerze to w netplanie też musimy ustawić DNSa na localhosta i/lub nasze ip statyczne bo inaczej ni pujdzie
 # Korzystanie
 
 Na kliencie oczywiscie ustawiamy adres DNS na adres serwera, odpalamy przegladarke i wpisusjemy nasz adres. Czasami przegladarka moze nie byc zadowolona i musimy wpisac caly adres z lapy, tzn: `http://www.chrupka.polewa`
