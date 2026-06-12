@@ -58,3 +58,5 @@ Argumenty:
 
 Przykład:   
 `net share Magazyn=C:\magazyn /grant:marian,READ /remark:"zajebane paletami"
+
+# net use
