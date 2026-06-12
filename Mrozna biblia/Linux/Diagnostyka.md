@@ -1,0 +1,11 @@
+lshw
+dmidecode
+free
+/proc
+uptime
+uname
+lscpu
+df
+du
+lsblk
+lsusb
