@@ -47,6 +47,7 @@ Skupiamy sie tylko na sekcji na samym dole, tzn:
 	read only = no
 	browsable = yes
 	writable = yes
+	valid users = magazynier
 ```     
 Oczywiście ścieżke, nazwe(to w nawiasie) i opis/komentarz adekwatnie ustawiamy. Opcje sie same tłumaczą, ale wszystkie z nich musza byc zeby dalo sie zapisywac
 

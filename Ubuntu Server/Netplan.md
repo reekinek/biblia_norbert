@@ -44,6 +44,13 @@ Tak oto wygląda oto kompletnie skonfigurowany netplan
 
 Po skonfigurowaniu netplana, zapisujemy plik i wpisujemy komendę `sudo netplan apply`. Jeśli dobrze go skonfigurowalismy, to nie wywali żadnego błędu i w `ip a` wyświetli się nam ustawiony adres ip
 
+# Zmiana nazwy:
+
+set-name ustawia nazwe
+bindujemy adres mac
+
+![tekst](../Obrazki/netplan6.png)
+
 # Przykładowe sekcje
 
 Okazuje się ze netplanma przykladowe pliki wiec nie trzeba pamietac syntaxu. Możemy je znaleźć w katalogu `/usr/share/doc/netplan/examples`. Obchodzi nas glownie plik `static.yaml` ktory ma taka zawartosc: 

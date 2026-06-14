@@ -11,6 +11,8 @@ Plik konfiguracyjny znajduje się w  `/etc/bind/named.conf.local` wchodzimy tam
 
 `sudo nano /etc/bind/named.conf.local` 
 
+Przykłady znajdują się w pliku `named.conf.default-zones`
+
 Wpisujemy tak jak na obrazku  (`chrupka.polewa` zastapiamy adresem jaki chcemy)
 
 ![tekst](../Obrazki/dns1.png)     
