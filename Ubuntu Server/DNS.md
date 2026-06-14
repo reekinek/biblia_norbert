@@ -65,3 +65,15 @@ Jak chcemy przetestowac DNS na serwerze to w netplanie też musimy ustawić DNSa
 Na kliencie oczywiscie ustawiamy adres DNS na adres serwera, odpalamy przegladarke i wpisusjemy nasz adres. Czasami przegladarka moze nie byc zadowolona i musimy wpisac caly adres z lapy, tzn: `http://www.chrupka.polewa`
 
 ![tekst](../Obrazki/dns6.png)
+
+
+# Strefa do tyłu
+
+![tekst](../Obrazki/dns_tyl_1.png)
+     
+
+![tekst](../Obrazki/dns_tyl_2.png)
+     
+
+![tekst](../Obrazki/dns_tyl_3.png)
+
