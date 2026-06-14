@@ -10,7 +10,7 @@ jak sie wpisze w przegladarke stronka.egzamin.local to przejdzie na index.html n
 
 ![tekst](../Obrazki/dns8.png)
 
-Gapcio mi nie placi, pomozcie mi
+**REDACTED**
 =======
 generlanie nas obchodzi strefa wyszukiwania do przodu, rekord A::
 >>>>>>> Stashed changes
