@@ -20,7 +20,8 @@ DNS
    - `db.local` - Plik strefy
 
 FTP
-- `/etc/vsftpd.conf`
+- `/etc/vsftpd.conf` - Główny config
+   - `/srv/ftp` - Katalog dla plików FTP
 
 Netplan
 - `/etc/netplan/00-installer-config.yaml` - Główny config
